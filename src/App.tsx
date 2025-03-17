@@ -16,6 +16,7 @@ function App() {
     }
   };
 
+  
   const removeClick = (id: number) => {
     dispatch(removeTodo(id));
   }
